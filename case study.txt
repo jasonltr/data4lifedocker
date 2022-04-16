@@ -1,0 +1,53 @@
+Case Study
+
+Hospital Appointment system
+
+Patient 
+- will have the attributes name, age and gender
+- can have multiple appointments with different doctors.
+
+Doctor
+- consultation hours is from 8am to 4pm 
+
+Appointment 
+- will have date & time, consulting doctor, patient,
+- duration is 1hr
+
+
+Q1:
+
+Load initial data
+
+Q2:
+
+Get all appointments for the given doctor & date
+
+Q3:
+
+Patient makes an appointment by selecting doctor and date and time
+
+Q4:
+
+Patient cancels appointment by selecting doctor and date & time
+
+Note:
+
+State any assumptions made.
+
+Initial Data
+doctor_id, patient_id, appointment_datetime
+D1,        P1,         08032018 09:00:00
+D1,        P1,         08042018 10:00:00
+D1,        P2,         08032018 10:00:00
+D1,        P1,         08042018 11:00:00
+D2,        P1,         18032018 08:00:00
+D2,        P1,         18042018 09:00:00
+D2,        P3,         18032018 09:00:00
+D2,        P3,         18042018 10:00:00
+
+Technical requirements:
+- Can be in any language
+- Data can be persisted in memory. DB not required.
+- UI not required. Can be in CLI mode
+- include a README file with instructions on how to run code
+- source code be shared via a public github repo, a zip file, or a link to a google drive
