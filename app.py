@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-data = pd.read_csv('/home/jason/Documents/GitHub/data4life/data4life/data.txt',skipinitialspace=True)
+data = pd.read_csv('./data.txt',skipinitialspace=True)
 
 data = data.astype('string')
 
